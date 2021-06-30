@@ -1,10 +1,13 @@
 import React from 'react';
+import { GlobalStyle } from './styles/globalStyles';
+
 import { Button } from './components/Button';
 
 function App() {
   return (
-    <div className="App">
-      <Button />
+    <div>
+      <GlobalStyle />
+      <Button title="Add to favorites" />
     </div>
   );
 }
